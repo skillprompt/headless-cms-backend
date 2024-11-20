@@ -82,9 +82,11 @@ npm install express typescript bcryptjs jsonwebtoken zod cookie-parser cors dote
 ```
 
 # Optional Security Downloads If Needed
-
+```bash
 npm install helmet <!-- no dependencies --- -->
 npm install nodemailer
+npm install -g docker or npm install aws-sdk
+```
 
 # For DataBase Download/SetUp Packages
 
