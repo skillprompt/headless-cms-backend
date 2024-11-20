@@ -25,6 +25,9 @@ This project serves as the backend for your application, built with Node.js, Exp
 
 ---
 
+## Additional Features
+- **Send OTP** : install nodemailer
+
 ## Prerequisites
 
 Before setting up the project, make sure you have the following installed:
@@ -81,6 +84,7 @@ npm install express typescript bcryptjs jsonwebtoken zod cookie-parser cors dote
 # Optional Security Downloads If Needed
 
 npm install helmet <!-- no dependencies --- -->
+npm install nodemailer
 
 # For DataBase Download/SetUp Packages
 
