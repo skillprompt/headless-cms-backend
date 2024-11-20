@@ -60,6 +60,7 @@ npm install express typescript
 npm install bcryptjs jsonwebtoken zod
 npm install cookie-parser cors dotenv
 
+
 # TypeScript type definitions
 npm install --save-dev @types/express @types/node
 npm install --save-dev @types/bcryptjs @types/jsonwebtoken
@@ -73,6 +74,14 @@ Or install everything in one command:
 ```bash
 npm install express typescript bcryptjs jsonwebtoken zod cookie-parser cors dotenv && npm install --save-dev @types/express @types/node @types/bcryptjs @types/jsonwebtoken @types/cookie-parser @types/cors @types/dotenv tsx typescript
 ```
+
+# Optional Security Downloads If Needed
+
+npm install helmet <!-- no dependencies  --- -->
+
+
+
+
 
 ### Environment Setup
 
