@@ -39,6 +39,7 @@ Before setting up the project, make sure you have the following installed:
 ### Quick Setup
 
 1. **Clone the repository**:
+
    ```bash
    git clone <repository-url>
    cd backend
@@ -54,6 +55,7 @@ Before setting up the project, make sure you have the following installed:
 If you prefer to install packages individually or need to add specific packages, here's the complete list of required packages and their installation commands:
 
 #### Main Dependencies
+
 ```bash
 # Core packages
 npm install express typescript
@@ -71,21 +73,43 @@ npm install --save-dev tsx typescript
 ```
 
 Or install everything in one command:
+
 ```bash
 npm install express typescript bcryptjs jsonwebtoken zod cookie-parser cors dotenv && npm install --save-dev @types/express @types/node @types/bcryptjs @types/jsonwebtoken @types/cookie-parser @types/cors @types/dotenv tsx typescript
 ```
 
 # Optional Security Downloads If Needed
 
-npm install helmet <!-- no dependencies  --- -->
+npm install helmet <!-- no dependencies --- -->
 
+# For DataBase Download/SetUp Packages
 
+# For MongoDB
 
+mongoose: A popular ODM (Object Document Mapper) for MongoDB, providing a rich API to interact with MongoDB, including schema validation, model creation, and query building.
 
+```bash
+npm install mongoose
+```
+
+# For MySQL
+
+mysql2: A MySQL client for Node.js that supports modern features and is faster than mysql.
+
+```bash
+npm install mysql2
+```
+
+mysql: An older package for MySQL, but still widely used.
+
+```bash
+npm install mysql
+```
 
 ### Environment Setup
 
 Create a `.env` file in the root directory:
+
 ```env
 NODE_ENV=development
 PORT=4000
@@ -99,15 +123,16 @@ JWT_SECRET=random_secret_value
 
 The following scripts are available in the `package.json`:
 
-| Command | Description |
-|---------|-------------|
-| `npm run build` | Compiles TypeScript files into JavaScript |
-| `npm run dev` | Starts the development server with live reload |
-| `npm start` | Builds the project and starts the production server |
+| Command         | Description                                         |
+| --------------- | --------------------------------------------------- |
+| `npm run build` | Compiles TypeScript files into JavaScript           |
+| `npm run dev`   | Starts the development server with live reload      |
+| `npm start`     | Builds the project and starts the production server |
 
 ### Development Server
 
 To run the server in development mode with live reload:
+
 ```bash
 npm run dev
 ```
@@ -115,6 +140,7 @@ npm run dev
 ### Production Build and Start
 
 To build the project and start the production server:
+
 ```bash
 npm start
 ```
@@ -125,7 +151,8 @@ Here's the complete `package.json` configuration used in this project:
 
 AFTER COMPLETION OF THE PAKAGES YOUR package.json file should look like this
 
-We should remove the test  add this  in Script To Run npm run dev
+We should remove the test add this in Script To Run npm run dev
+
 ```json
 {
   "name": "backend",
@@ -164,15 +191,15 @@ We should remove the test  add this  in Script To Run npm run dev
 
 This project uses the following technologies:
 
-* **Express**: A web framework for building APIs in Node.js
-* **TypeScript**: A superset of JavaScript with type safety
-* **bcryptjs**: A library for hashing passwords securely
-* **jsonwebtoken**: For generating and verifying JSON Web Tokens (JWTs)
-* **dotenv**: Loads environment variables from a `.env` file
-* **zod**: A schema validation library to ensure that incoming data matches expected formats
-* **cookie-parser**: To parse cookies sent by the client in HTTP requests
-* **CORS**: Middleware for enabling Cross-Origin Resource Sharing (CORS) on APIs
+- **Express**: A web framework for building APIs in Node.js
+- **TypeScript**: A superset of JavaScript with type safety
+- **bcryptjs**: A library for hashing passwords securely
+- **jsonwebtoken**: For generating and verifying JSON Web Tokens (JWTs)
+- **dotenv**: Loads environment variables from a `.env` file
+- **zod**: A schema validation library to ensure that incoming data matches expected formats
+- **cookie-parser**: To parse cookies sent by the client in HTTP requests
+- **CORS**: Middleware for enabling Cross-Origin Resource Sharing (CORS) on APIs
 
-* **tsx**: A Node.js runtime that enables running TypeScript and ESM files directly with Node.js, providing fast compilation and hot module reloading for development
+- **tsx**: A Node.js runtime that enables running TypeScript and ESM files directly with Node.js, providing fast compilation and hot module reloading for development
 
-* Used in our development script: `"dev": "tsx --watch src/main.ts"`
+- Used in our development script: `"dev": "tsx --watch src/main.ts"`
