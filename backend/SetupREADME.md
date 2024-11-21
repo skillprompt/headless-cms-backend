@@ -88,13 +88,13 @@ npm install --save-dev tsx typescript
 
 npm install express-rate-limit [Express-Rate-Limit Docs](https://www.npmjs.com/package/express-rate-limit)
 
-npm install helmet   [Helmet Docs](https://www.npmjs.com/package/helmet)
+npm install helmet [Helmet Docs](https://www.npmjs.com/package/helmet)
 
-npm install nodemailer  [Nodemailer Docs](https://nodemailer.com/)
+npm install nodemailer [Nodemailer Docs](https://nodemailer.com/)
 
 npm install -g docker [ Docker Docs](https://www.npmjs.com/package/docker)
 
-npm install aws-sdk  [AWS-SDK Docs](https://www.npmjs.com/package/aws-sdk)
+npm install aws-sdk [AWS-SDK Docs](https://www.npmjs.com/package/aws-sdk)
 
 ---
 
