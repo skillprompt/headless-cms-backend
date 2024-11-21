@@ -86,18 +86,19 @@ npm install --save-dev tsx typescript
 
 ### **Optional Security Packages**
 
-Add these for enhanced security:
+npm install express-rate-limit [Express-Rate-Limit Docs](https://www.npmjs.com/package/express-rate-limit)
 
-```bash
-npm install express-rate-limit
-npm install helmet nodemailer
-npm install -g docker # Optional: For containerized deployments
-npm install aws-sdk   # Optional: For cloud services
-```
+npm install helmet   [Helmet Docs](https://www.npmjs.com/package/helmet)
+
+npm install nodemailer  [Nodemailer Docs](https://nodemailer.com/)
+
+npm install -g docker [ Docker Docs](https://www.npmjs.com/package/docker)
+
+npm install aws-sdk  [AWS-SDK Docs](https://www.npmjs.com/package/aws-sdk)
 
 ---
 
-### **Database Setup**
+### <h1>Database Setup</h1>
 
 #### **MongoDB Setup**
 
@@ -333,9 +334,6 @@ app.listen(PORT, () => {
 ---
 
 ## This structure ensures scalability and maintainability as your project grows.
-
-
-
 
 ## **Technologies Used**
 

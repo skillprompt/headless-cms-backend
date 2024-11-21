@@ -3,8 +3,13 @@ import express, { NextFunction, Request, Response } from "express";
 import cors from "cors"; // Uncomment this if you plan to use CORS
 import { APIError } from "./utils/error";
 import { env } from "./utils/config";
+import helmet from "helmet";
 
 const app = express();
+
+//----------------Helmet (If Neccessary) --------------
+
+app.use(helmet());
 
 // ------------------------- CORS Setup -------------------------
 app.use(
