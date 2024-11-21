@@ -89,6 +89,7 @@ npm install --save-dev tsx typescript
 Add these for enhanced security:
 
 ```bash
+npm install express-rate-limit
 npm install helmet nodemailer
 npm install -g docker # Optional: For containerized deployments
 npm install aws-sdk   # Optional: For cloud services
