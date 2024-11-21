@@ -98,6 +98,8 @@ mongoose: A popular ODM (Object Document Mapper) for MongoDB, providing a rich A
 npm install mongoose
 ```
 
+For more info about MongoDB You Can Read Docs -> https://www.mongodb.com/docs/
+
 # For MySQL
 
 mysql2: A MySQL client for Node.js that supports modern features and is faster than mysql.
@@ -111,6 +113,8 @@ mysql: An older package for MySQL, but still widely used.
 ```bash
 npm install mysql
 ```
+
+For more Info about MySQL You Can Read Docs -> https://www.npmjs.com/package/mysql2
 
 ### Environment Setup
 
@@ -197,15 +201,14 @@ We should remove the test add this in Script To Run npm run dev
 
 This project uses the following technologies:
 
-- **Express**: A web framework for building APIs in Node.js
-- **TypeScript**: A superset of JavaScript with type safety
-- **bcryptjs**: A library for hashing passwords securely
-- **jsonwebtoken**: For generating and verifying JSON Web Tokens (JWTs)
-- **dotenv**: Loads environment variables from a `.env` file
-- **zod**: A schema validation library to ensure that incoming data matches expected formats
-- **cookie-parser**: To parse cookies sent by the client in HTTP requests
-- **CORS**: Middleware for enabling Cross-Origin Resource Sharing (CORS) on APIs
+- **Express**: A web framework for building APIs in Node.js for more -> https://www.npmjs.com/package/express
+- **TypeScript**: A superset of JavaScript with type safety for more -> https://www.npmjs.com/package/typescript
+- **bcryptjs**: A library for hashing passwords securely for more -> https://www.npmjs.com/package/typescript
+- **jsonwebtoken**: For generating and verifying JSON Web Tokens (JWTs) for more -> https://www.npmjs.com/package/jsonwebtoken
+- **dotenv**: Loads environment variables from a `.env` file  for more -> https://www.npmjs.com/package/dotenv
+- **zod**: A schema validation library to ensure that incoming data matches expected formats for more -> https://www.npmjs.com/package/zod
+- **cookie-parser**: To parse cookies sent by the client in HTTP requests for more -> https://www.npmjs.com/package/cookie-parser
+- **CORS**: Middleware for enabling Cross-Origin Resource Sharing (CORS) on APIs for more -> https://www.npmjs.com/package/cors
 
-- **tsx**: A Node.js runtime that enables running TypeScript and ESM files directly with Node.js, providing fast compilation and hot module reloading for development
-
-- Used in our development script: `"dev": "tsx --watch src/main.ts"`
+- **tsx**: A Node.js runtime that enables running TypeScript and ESM files directly with Node.js, providing fast compilation and hot module reloading for development for more -> https://www.npmjs.com/package/tsx <br/>
+  <b>tsx Used in our development script</b>: `"dev": "tsx --watch src/main.ts"` To make developer easier to run the server and donot start server again & again.
