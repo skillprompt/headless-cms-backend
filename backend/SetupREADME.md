@@ -70,6 +70,7 @@ Below is the list of required packages and their installation commands. Install 
 
 ```bash
 npm install express typescript bcryptjs jsonwebtoken zod cookie-parser cors dotenv
+npm install helmet
 ```
 
 #### **TypeScript Type Definitions**
@@ -88,13 +89,9 @@ npm install --save-dev tsx typescript
 
 npm install express-rate-limit [Express-Rate-Limit Docs](https://www.npmjs.com/package/express-rate-limit)
 
-npm install helmet [Helmet Docs](https://www.npmjs.com/package/helmet)
-
 npm install nodemailer [Nodemailer Docs](https://nodemailer.com/)
 
 npm install -g docker [ Docker Docs](https://www.npmjs.com/package/docker)
-
-npm install aws-sdk [AWS-SDK Docs](https://www.npmjs.com/package/aws-sdk)
 
 ---
 
@@ -125,6 +122,17 @@ npm install mysql
 ```
 
 [Learn More About MySQL2](https://www.npmjs.com/package/mysql2)
+
+---
+
+### **VS-Code Extension**
+
+---
+
+Prettier - Code formatter # (optional) <br/>
+ES7+ React/Redux/React-Native snippets <br/>
+Better Comments # (optional) <br/>
+JavaScript and TypeScript Nightly #(optional) <br/>
 
 ---
 
@@ -337,16 +345,17 @@ app.listen(PORT, () => {
 
 ## **Technologies Used**
 
-| Technology        | Description                                                                 | Documentation                                                     |
-| ----------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| **Express**       | Lightweight web framework for building APIs.                                | [Express Docs](https://www.npmjs.com/package/express)             |
-| **TypeScript**    | Superset of JavaScript with static typing.                                  | [TypeScript Docs](https://www.npmjs.com/package/typescript)       |
-| **bcryptjs**      | Secure password hashing library.                                            | [bcryptjs Docs](https://www.npmjs.com/package/bcryptjs)           |
-| **jsonwebtoken**  | Generate and verify JSON Web Tokens (JWTs).                                 | [JWT Docs](https://www.npmjs.com/package/jsonwebtoken)            |
-| **dotenv**        | Loads environment variables from `.env` files.                              | [dotenv Docs](https://www.npmjs.com/package/dotenv)               |
-| **zod**           | Schema validation library for runtime data validation.                      | [zod Docs](https://www.npmjs.com/package/zod)                     |
-| **cookie-parser** | Middleware for parsing cookies.                                             | [cookie-parser Docs](https://www.npmjs.com/package/cookie-parser) |
-| **CORS**          | Middleware to enable secure Cross-Origin Resource Sharing.                  | [CORS Docs](https://www.npmjs.com/package/cors)                   |
-| **tsx**           | Fast Node.js runtime for TypeScript with hot reloading in development mode. | [tsx Docs](https://www.npmjs.com/package/tsx)                     |
+| Technology                                          | Description                                                                 | Documentation                                                     |
+| --------------------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Express**                                         | Lightweight web framework for building APIs.                                | [Express Docs](https://www.npmjs.com/package/express)             |
+| **TypeScript**                                      | Superset of JavaScript with static typing.                                  | [TypeScript Docs](https://www.npmjs.com/package/typescript)       |
+| **helmet**                                          | Help secure Express apps by setting HTTP response headers.                  |[Helmet Docs](https://www.npmjs.com/package/helmet) |
+| **bcryptjs**                                        | Secure password hashing library.                                            | [bcryptjs Docs](https://www.npmjs.com/package/bcryptjs)           |
+| **jsonwebtoken**                                    | Generate and verify JSON Web Tokens (JWTs).                                 | [JWT Docs](https://www.npmjs.com/package/jsonwebtoken)            |
+| **dotenv**                                          | Loads environment variables from `.env` files.                              | [dotenv Docs](https://www.npmjs.com/package/dotenv)               |
+| **zod**                                             | Schema validation library for runtime data validation.                      | [zod Docs](https://www.npmjs.com/package/zod)                     |
+| **cookie-parser**                                   | Middleware for parsing cookies.                                             | [cookie-parser Docs](https://www.npmjs.com/package/cookie-parser) |
+| **CORS**                                            | Middleware to enable secure Cross-Origin Resource Sharing.                  | [CORS Docs](https://www.npmjs.com/package/cors)                   |
+| **tsx**                                             | Fast Node.js runtime for TypeScript with hot reloading in development mode. | [tsx Docs](https://www.npmjs.com/package/tsx)                     |
 
 ---
