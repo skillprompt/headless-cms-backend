@@ -7,7 +7,7 @@ import helmet from "helmet";
 
 const app = express();
 
-//----------------Helmet (If Neccessary) --------------
+//----------------Helmet Setup --------------
 
 app.use(helmet());
 
