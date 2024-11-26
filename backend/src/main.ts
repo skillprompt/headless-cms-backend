@@ -5,6 +5,7 @@ import { APIError } from "./utils/error";
 import { env } from "./utils/config";
 import helmet from "helmet";
 
+
 const app = express();
 
 //----------------Helmet Setup --------------
@@ -20,6 +21,7 @@ app.use(
   })
 );
 
+
 // ------------------------- Middleware for JSON and Cookies -------------------------
 app.use(express.json());
 app.use(cookieParser());
@@ -32,6 +34,7 @@ app.get("/", (req: Request, res: Response) => {
     isSuccess: true,
   });
 });
+
 
 // ------------------------- Routes -------------------------
 // Add your application routes here
